@@ -1,12 +1,130 @@
 .App {
   text-align: center;
 }
+img{
+  display: block;
+}
+header{
+  background-color: #21222A ;
+display: flex;
+justify-content: space-around; 
+}
+.reacts {
+  color: #DEEBF8;
+text-align: right;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
+img{
+  width: 317px;
+height: 317px;
+flex-shrink: 0;
+}
+
+body{
+  background-color: #000000;
+  color: #FFF;
+font-family: Inter;
+font-size: 39.06px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.953px;
+}
+.img , .contain{
+  width: 317px;
+height: 399px;
+background: #1A1B21;
+flex-shrink: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+h2{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+h4{
+  color: #F5F5F5;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+h1,h2,h3,h4{
+  margin: 0;
+}
+p{
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.social{
+  width: 317px;
+  display: flex;
+  gap: 46px;
+  justify-self: center;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+background: #161619;
+  flex-shrink: 0;
+}
+.social img{
+width: 45px;
+height: 45px;
+flex-shrink: 0;
+flex-shrink: 0;
+}
+button{
+  border-radius: 6px;
+  background: #5093E2;
+  
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+width: 115px;
+padding: 9px 13px 9px 11px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+.front{
+  color: #F3BF99;
+text-align: center;
+font-family: Inter;
+font-size: 12.8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main{
+  margin: 0;
+}
+.second-container{
+  display: flex;
+width: 550px;
+height: 868px;
+margin: 0 auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+background: #23252C;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
